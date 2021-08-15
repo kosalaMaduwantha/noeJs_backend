@@ -29,7 +29,7 @@ application.use('/Courses', coursesController);
 
 application.listen(5000, (error)=>{
     if(!error){
-        console.log("badu wada bn");
+        console.log("server is working");
     }
 })
 
