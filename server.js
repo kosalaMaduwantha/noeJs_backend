@@ -29,7 +29,7 @@ mySqlConnection.connect((error)=>{
 });
 
 app.listen(5000, ()=>{
-    console.log("badu wada utto");
+    console.log("server is working");
 });
 
 
