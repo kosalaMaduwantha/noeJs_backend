@@ -1,0 +1,19 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">CourseName</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        {{#each data}}
+        <tr>
+            <td scope="row">{{this.courseId}}</th>
+            <td>{{this.courseName}}</td>
+
+        </tr>
+        {{/each}}
+
+    </tbody>
+</table>
